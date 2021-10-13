@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-import styles from "./todoform/module.css";
+import styles from "./todoform.module.css";
+
 const TodoForm = ({ addTodo, showAdd }) => {
   const [value, setValue] = useState("");
 
